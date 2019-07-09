@@ -1,16 +1,16 @@
 # Lozad.js [![npm version](https://badge.fury.io/js/lozad.svg)](https://badge.fury.io/js/lozad) [![Build Status](https://travis-ci.org/ApoorvSaxena/lozad.js.svg?branch=master)](https://travis-ci.org/ApoorvSaxena/lozad.js) [![](https://data.jsdelivr.com/v1/package/npm/lozad/badge)](https://www.jsdelivr.com/package/npm/lozad)
 
-> Highly performant, light and configurable lazy loader in pure JS with no dependencies for images, iframes and more, using IntersectionObserver API
+> lozad.js是使用纯JavaScript实现的不借助图像或iframe的高性能且轻量级可配置延迟加载器，它的思想是观察者模式
 
 ![lozad.js lazy loading javascript library](./banner/lozad-banner.jpg "lozad.js lazy loading javascript library")
 
-**Lozad.js**:
-- lazy loads elements performantly using pure JavaScript,
-- is a light-weight library, just [![](http://img.badgesize.io/https://cdn.jsdelivr.net/npm/lozad?compression=gzip)](https://cdn.jsdelivr.net/npm/lozad) minified & gzipped,
-- has NO DEPENDENCIES :)
-- allows lazy loading of dynamically added elements as well,
-- supports &lt;img&gt;, &lt;picture&gt;, iframes, videos, audios, responsive images, background images etc.
-- is completely free and open source.
+**Lozad.js 特点**:
+- 纯js实现
+- 非常轻量，压缩后只有1.04kb
+- 零依赖
+- 允许延迟加载动态添加的元素
+- 支持图片、iframe、视频、音频、背景图片等
+- 免费开源
 
 It is written with an aim to lazy load images, iframes, ads, videos or any other element using the recently added [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) with tremendous performance benefits.
 
